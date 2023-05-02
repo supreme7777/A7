@@ -3,10 +3,10 @@
  *  .  .   change these values:   .  *
    .      * .        .          * .       */
    const STAR_COLOR = 'rgb(143, 255, 255)';
-   const STAR_SIZE = 5;
-   const STAR_MIN_SCALE = 1;
+   const STAR_SIZE = 51;
+   const STAR_MIN_SCALE = 11;
    const OVERFLOW_THRESHOLD = 30;
-   const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 10;
+   const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 9;
    
    const canvas = document.querySelector( 'canvas'),
          context = canvas.getContext( '2d' );

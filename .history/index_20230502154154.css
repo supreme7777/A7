@@ -515,8 +515,8 @@ header .info button a {
 
         canvas {
                 position: absolute;
-                width: 100% !important;
-                max-width: 100% !important;
+                width: 100%;
+                max-width: 110%;
                 height: 100%;
         }
 
@@ -792,7 +792,7 @@ header .info button a {
         }
 
         .dropdown .a:hover {
-                background-color: rgba(0, 225, 255, 0.048);
+                background-color: rgba(0, 0, 0, 0.76);
         }
 
         .show {
@@ -917,7 +917,7 @@ header .info button a {
                 width: 100%;
                 max-width: 100%;
                 height: 100%;
-                transform: rotate(0);
+                transform: ;
         }
 
         #header .info p {
